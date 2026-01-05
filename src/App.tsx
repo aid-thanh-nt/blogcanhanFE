@@ -8,7 +8,7 @@ import { Contact } from './pages/Contact/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blogcanhanFE">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
