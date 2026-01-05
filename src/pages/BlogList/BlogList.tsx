@@ -36,10 +36,16 @@ export const BlogList = () => {
     <main className="flex-grow flex flex-col items-center py-6 md:py-10 px-4 md:px-10">
       <div className="w-full max-w-[1024px] flex flex-col gap-10">
         {/* Hero / Featured Post */}
-        {featuredPost && (
-          <section className="@container w-full">
-            <BlogCard post={featuredPost} variant="featured" />
-          </section>
+        {loading ? (
+          <div className="flex justify-center items-center py-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+          </div>
+        ) : (
+          featuredPost && (
+            <section className="@container w-full">
+              <BlogCard post={featuredPost} variant="featured" />
+            </section>
+          )
         )}
 
         {/* Page Heading & Filters */}
