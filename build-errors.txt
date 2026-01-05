@@ -1,0 +1,24 @@
+src/App.tsx(4,10): error TS2459: Module '"./pages/BlogList/BlogList"' declares 'BlogList' locally, but it is not exported.
+src/App.tsx(6,10): error TS2459: Module '"./pages/About/About"' declares 'About' locally, but it is not exported.
+src/App.tsx(7,10): error TS2459: Module '"./pages/Contact/Contact"' declares 'Contact' locally, but it is not exported.
+src/components/Newsletter/Newsletter.tsx(2,23): error TS2304: Cannot find name 'exports'.
+src/components/Newsletter/Newsletter.tsx(3,1): error TS2304: Cannot find name 'exports'.
+src/components/Newsletter/Newsletter.tsx(26,1): error TS2304: Cannot find name 'exports'.
+src/pages/About/About.tsx(2,23): error TS2304: Cannot find name 'exports'.
+src/pages/About/About.tsx(3,1): error TS2304: Cannot find name 'exports'.
+src/pages/About/About.tsx(76,1): error TS2304: Cannot find name 'exports'.
+src/pages/BlogList/BlogList.tsx(2,23): error TS2304: Cannot find name 'exports'.
+src/pages/BlogList/BlogList.tsx(3,1): error TS2304: Cannot find name 'exports'.
+src/pages/BlogList/BlogList.tsx(4,15): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+src/pages/BlogList/BlogList.tsx(5,18): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+src/pages/BlogList/BlogList.tsx(6,20): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+src/pages/BlogList/BlogList.tsx(7,21): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+src/pages/BlogList/BlogList.tsx(11,9): error TS6133: 'allPosts' is declared but its value is never read.
+src/pages/BlogList/BlogList.tsx(52,39): error TS7006: Parameter 'category' implicitly has an 'any' type.
+src/pages/BlogList/BlogList.tsx(62,39): error TS7006: Parameter 'post' implicitly has an 'any' type.
+src/pages/BlogList/BlogList.tsx(70,1): error TS2304: Cannot find name 'exports'.
+src/pages/Contact/Contact.tsx(2,23): error TS2304: Cannot find name 'exports'.
+src/pages/Contact/Contact.tsx(3,1): error TS2304: Cannot find name 'exports'.
+src/pages/Contact/Contact.tsx(77,1): error TS2304: Cannot find name 'exports'.
+src/pages/Home/Home.tsx(3,10): error TS2459: Module '"@/components/Newsletter/Newsletter"' declares 'Newsletter' locally, but it is not exported.
+error TS18003: No inputs were found in config file 'D:/work/github/blogcanhanFE/tsconfig.node.json'. Specified 'include' paths were '["vite.config.ts"]' and 'exclude' paths were '[]'.

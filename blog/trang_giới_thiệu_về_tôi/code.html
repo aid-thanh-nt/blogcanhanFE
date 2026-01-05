@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Giới thiệu về Tôi | Blog Cá Nhân</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#195de6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Newsreader", "serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 20px;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background-color: #334155;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 w-full border-b border-solid border-slate-200 dark:border-slate-800 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md">
+<div class="flex items-center justify-between px-6 py-4 lg:px-40 max-w-[1280px] mx-auto w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">history_edu</span>
+<h2 class="text-xl font-bold leading-tight tracking-tight">Nguyễn Văn An</h2>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Trang chủ</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Bài viết</a>
+<a class="text-sm font-bold text-primary" href="#">Giới thiệu</a>
+<button class="bg-primary text-white text-sm font-bold px-5 py-2 rounded-full hover:bg-primary/90 transition-colors">
+                        Liên hệ
+                    </button>
+</nav>
+<!-- Mobile Menu Icon -->
+<div class="md:hidden">
+<span class="material-symbols-outlined cursor-pointer">menu</span>
+</div>
+</div>
+</header>
+<main class="flex-1 w-full max-w-[960px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+<!-- Hero Section -->
+<section class="@container mb-16">
+<div class="flex flex-col gap-10 md:flex-row items-center md:items-start">
+<!-- Profile Image -->
+<div class="w-full md:w-5/12 lg:w-4/12 flex-shrink-0">
+<div class="aspect-[3/4] w-full rounded-xl bg-cover bg-center shadow-lg transform rotate-[-2deg] hover:rotate-0 transition-transform duration-500" data-alt="Chân dung chuyên nghiệp của tác giả đang mỉm cười trong studio" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6XDuNL71sAvi38_ywT6tyd3ZA-C-gFwrYxj-ggEOViAwBnYsCcNt9ISjZe0JFOv_VKCbmx9PmlPx7KfXicHviXHYZ5qKU7lAgfjBYYDy0fqnwIIZLAJ6EGhlkES87WB_tdVqQHp5ii2GCwptQP6IIapYIidSkQjKk-oeifUDJVO8S9MTSNV0V1cTRmCMLyO4WNTZP8WkxnvVI8PLJlAUrmf1M2a7C7jA9ShW_xqW4_3kQSTS0Y-a5DjrsufF6vuaza50qwzVrcI8");'>
+</div>
+</div>
+<!-- Intro Content -->
+<div class="flex flex-col gap-6 md:pt-4 flex-1">
+<div>
+<span class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-primary uppercase bg-primary/10 rounded-full">
+                                Về Tác Giả
+                            </span>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.02em] mb-4">
+                                Xin chào, tôi là <span class="text-primary">An.</span>
+</h1>
+<h2 class="text-xl md:text-2xl font-normal text-slate-600 dark:text-slate-300 leading-relaxed">
+                                Một kỹ sư phần mềm yêu thích viết lách, cà phê và những dòng code đẹp.
+                            </h2>
+</div>
+<div class="flex flex-wrap gap-4 mt-2">
+<button class="flex items-center gap-2 bg-primary text-white text-base font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+                                Liên hệ với tôi
+                            </button>
+<button class="flex items-center gap-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white text-base font-bold px-6 py-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-[20px]">download</span>
+                                Tải CV
+                            </button>
+</div>
+<!-- Social Proof / Links -->
+<div class="flex gap-6 mt-6 pt-6 border-t border-slate-200 dark:border-slate-800">
+<a class="text-slate-500 hover:text-primary transition-colors group" href="#">
+<span class="sr-only">LinkedIn</span>
+<!-- Using Material Symbol as placeholder for brand icons -->
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">work</span>
+</a>
+<a class="text-slate-500 hover:text-primary transition-colors group" href="#">
+<span class="sr-only">GitHub</span>
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">code</span>
+</a>
+<a class="text-slate-500 hover:text-primary transition-colors group" href="#">
+<span class="sr-only">Twitter</span>
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">alternate_email</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- My Story Section -->
+<section class="mb-16">
+<div class="mb-6">
+<h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">Câu chuyện của tôi</h2>
+<div class="h-1 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="prose prose-lg prose-slate dark:prose-invert max-w-none text-slate-700 dark:text-slate-300 font-display">
+<p class="mb-4 text-lg leading-8">
+                        Tôi bắt đầu hành trình của mình với niềm đam mê công nghệ từ khi còn nhỏ. Chiếc máy tính đầu tiên của tôi là một cánh cửa mở ra thế giới vô tận của logic và sự sáng tạo. Tôi vẫn nhớ cảm giác hồi hộp khi viết chương trình "Hello World" đầu tiên của mình.
+                    </p>
+<p class="mb-4 text-lg leading-8">
+                        Qua nhiều năm làm việc tại các công ty công nghệ lớn nhỏ và tích lũy kinh nghiệm từ những thất bại, tôi nhận ra rằng chia sẻ kiến thức là cách tốt nhất để học hỏi và phát triển bền vững. Đó không chỉ là về code, mà là về tư duy giải quyết vấn đề.
+                    </p>
+<p class="text-lg leading-8">
+                        Blog này là nơi tôi ghi lại những suy nghĩ, trải nghiệm và bài học quý giá mà tôi gom nhặt được. Hy vọng nó sẽ mang lại chút cảm hứng hoặc kiến thức hữu ích cho bạn trên con đường của mình.
+                    </p>
+</div>
+</section>
+<!-- Experience Section -->
+<section class="mb-16">
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">Kinh nghiệm làm việc</h2>
+<div class="h-1 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="space-y-8 relative pl-4 sm:pl-0">
+<!-- Vertical Line for timeline effect on mobile -->
+<div class="absolute left-4 top-2 bottom-2 w-0.5 bg-slate-200 dark:bg-slate-800 sm:hidden"></div>
+<!-- Item 1 -->
+<div class="flex flex-col sm:flex-row gap-4 sm:gap-8 relative">
+<div class="sm:w-1/4 flex-shrink-0 pt-1">
+<span class="inline-block sm:hidden absolute left-[-5px] top-2 w-3 h-3 rounded-full bg-primary border-2 border-white dark:border-slate-900"></span>
+<span class="text-sm font-bold text-primary uppercase tracking-wide">2021 - Hiện tại</span>
+</div>
+<div class="sm:w-3/4 pb-8 border-b border-slate-100 dark:border-slate-800 last:border-0">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Senior Software Engineer</h3>
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">Tech Unicorn Inc. • TP. Hồ Chí Minh</p>
+<p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                Dẫn dắt đội ngũ phát triển frontend, xây dựng hệ thống design system quy mô lớn và tối ưu hóa hiệu năng ứng dụng cho hơn 1 triệu người dùng.
+                            </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex flex-col sm:flex-row gap-4 sm:gap-8 relative">
+<div class="sm:w-1/4 flex-shrink-0 pt-1">
+<span class="inline-block sm:hidden absolute left-[-5px] top-2 w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-600 border-2 border-white dark:border-slate-900"></span>
+<span class="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide">2018 - 2021</span>
+</div>
+<div class="sm:w-3/4 pb-8 border-b border-slate-100 dark:border-slate-800 last:border-0">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Fullstack Developer</h3>
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">Creative Agency Asia</p>
+<p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                Phát triển các website thương mại điện tử sử dụng React và Node.js. Làm việc trực tiếp với khách hàng quốc tế để chuyển đổi yêu cầu kinh doanh thành giải pháp kỹ thuật.
+                            </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex flex-col sm:flex-row gap-4 sm:gap-8 relative">
+<div class="sm:w-1/4 flex-shrink-0 pt-1">
+<span class="inline-block sm:hidden absolute left-[-5px] top-2 w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-600 border-2 border-white dark:border-slate-900"></span>
+<span class="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide">2016 - 2018</span>
+</div>
+<div class="sm:w-3/4">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white">Junior Developer</h3>
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mb-3">StartUp Viet</p>
+<p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                Tham gia phát triển ứng dụng mobile sử dụng Flutter. Học hỏi quy trình Agile/Scrum và cách làm việc nhóm hiệu quả.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Hobbies & Interests Grid -->
+<section class="mb-16">
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">Sở thích cá nhân</h2>
+<div class="h-1 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Hobby Card 1 -->
+<div class="flex items-start gap-4 p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg text-primary">
+<span class="material-symbols-outlined text-3xl">camera_alt</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Nhiếp ảnh</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-normal">
+                                Ghi lại những khoảnh khắc đời thường qua ống kính. Tôi yêu thích nhiếp ảnh đường phố và chân dung.
+                            </p>
+</div>
+</div>
+<!-- Hobby Card 2 -->
+<div class="flex items-start gap-4 p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg text-green-600 dark:text-green-400">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Đọc sách</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-normal">
+                                Tôi đọc khoảng 20 cuốn sách mỗi năm, chủ yếu về tâm lý học, lịch sử và khoa học viễn tưởng.
+                            </p>
+</div>
+</div>
+<!-- Hobby Card 3 -->
+<div class="flex items-start gap-4 p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="p-3 bg-orange-50 dark:bg-orange-900/30 rounded-lg text-orange-600 dark:text-orange-400">
+<span class="material-symbols-outlined text-3xl">flight</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Du lịch</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-normal">
+                                Khám phá những vùng đất mới và văn hóa ẩm thực địa phương là nguồn cảm hứng lớn nhất của tôi.
+                            </p>
+</div>
+</div>
+<!-- Hobby Card 4 -->
+<div class="flex items-start gap-4 p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<div class="p-3 bg-purple-50 dark:bg-purple-900/30 rounded-lg text-purple-600 dark:text-purple-400">
+<span class="material-symbols-outlined text-3xl">music_note</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Âm nhạc Lo-fi</h3>
+<p class="text-sm text-slate-600 dark:text-slate-300 leading-normal">
+                                Playlist Lo-fi là người bạn đồng hành không thể thiếu trong những giờ làm việc tập trung cao độ.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0d1117] py-12">
+<div class="max-w-[960px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2 text-center md:text-left">
+<div class="flex items-center justify-center md:justify-start gap-2 text-slate-900 dark:text-white font-bold text-lg">
+<span class="material-symbols-outlined text-primary">history_edu</span>
+                        Nguyễn Văn An
+                    </div>
+<p class="text-sm text-slate-500 dark:text-slate-400">
+                        © 2023 Nguyễn Văn An. All rights reserved.
+                    </p>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-600 dark:text-slate-300">
+<a class="hover:text-primary transition-colors" href="#">Trang chủ</a>
+<a class="hover:text-primary transition-colors" href="#">Bài viết</a>
+<a class="hover:text-primary transition-colors" href="#">Giới thiệu</a>
+<a class="hover:text-primary transition-colors" href="#">Liên hệ</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
